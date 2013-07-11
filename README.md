@@ -15,6 +15,7 @@ Screen Shot
 Adding to Your Project
 ======================
 
+Just copy all the files from  "REDPuzzleGridView / Word Puzzle Grid / REDPuzzleGridView" into your project.
 
 Implementation
 ==============
