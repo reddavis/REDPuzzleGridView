@@ -3,8 +3,10 @@ REDPuzzleGridView
 
 A word puzzle control, similar to Ruzzle's letter board
 
+[Video](http://taylorswift.ly/QBtz)
 
-Screen Show
+
+Screen Shot
 ===========
 
 ![screenshot](http://f.cl.ly/items/0Y0O291T1z2I2T2F2V2n/Image%202013.07.11%2012%3A09%3A35.png)
