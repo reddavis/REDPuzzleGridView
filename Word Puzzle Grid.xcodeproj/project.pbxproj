@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A407AA05178EC3B60063AA90 /* REDPuzzleGridTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A407AA00178EC3B60063AA90 /* REDPuzzleGridTile.m */; };
+		A407AA06178EC3B60063AA90 /* REDPuzzleGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A407AA02178EC3B60063AA90 /* REDPuzzleGridView.m */; };
+		A407AA07178EC3B60063AA90 /* REDTapDownGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A407AA04178EC3B60063AA90 /* REDTapDownGestureRecognizer.m */; };
 		A45B4744178AF212007D5CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B4743178AF212007D5CF0 /* Foundation.framework */; };
 		A45B4746178AF212007D5CF0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B4745178AF212007D5CF0 /* CoreGraphics.framework */; };
 		A45B4748178AF212007D5CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B4747178AF212007D5CF0 /* UIKit.framework */; };
 		A45B474E178AF212007D5CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A45B474C178AF212007D5CF0 /* InfoPlist.strings */; };
 		A45B4750178AF212007D5CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A45B474F178AF212007D5CF0 /* main.m */; };
-		A45B4754178AF212007D5CF0 /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A45B4753178AF212007D5CF0 /* WPAppDelegate.m */; };
 		A45B4756178AF212007D5CF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45B4755178AF212007D5CF0 /* Images.xcassets */; };
 		A45B475D178AF212007D5CF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B475C178AF212007D5CF0 /* XCTest.framework */; };
 		A45B475E178AF212007D5CF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B4743178AF212007D5CF0 /* Foundation.framework */; };
 		A45B475F178AF212007D5CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45B4747178AF212007D5CF0 /* UIKit.framework */; };
 		A45B4767178AF212007D5CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A45B4765178AF212007D5CF0 /* InfoPlist.strings */; };
 		A45B4769178AF212007D5CF0 /* Word_Puzzle_GridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45B4768178AF212007D5CF0 /* Word_Puzzle_GridTests.m */; };
+		A45B4775178AF23B007D5CF0 /* WPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A45B4774178AF23B007D5CF0 /* WPAppDelegate.m */; };
+		A45B4779178AF28B007D5CF0 /* WPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45B4778178AF28B007D5CF0 /* WPRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A407A9FF178EC3B60063AA90 /* REDPuzzleGridTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDPuzzleGridTile.h; sourceTree = "<group>"; };
+		A407AA00178EC3B60063AA90 /* REDPuzzleGridTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDPuzzleGridTile.m; sourceTree = "<group>"; };
+		A407AA01178EC3B60063AA90 /* REDPuzzleGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDPuzzleGridView.h; sourceTree = "<group>"; };
+		A407AA02178EC3B60063AA90 /* REDPuzzleGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDPuzzleGridView.m; sourceTree = "<group>"; };
+		A407AA03178EC3B60063AA90 /* REDTapDownGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REDTapDownGestureRecognizer.h; sourceTree = "<group>"; };
+		A407AA04178EC3B60063AA90 /* REDTapDownGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REDTapDownGestureRecognizer.m; sourceTree = "<group>"; };
 		A45B4740178AF212007D5CF0 /* Word Puzzle Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Word Puzzle Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45B4743178AF212007D5CF0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A45B4745178AF212007D5CF0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -40,14 +50,16 @@
 		A45B474D178AF212007D5CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A45B474F178AF212007D5CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A45B4751178AF212007D5CF0 /* Word Puzzle Grid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Word Puzzle Grid-Prefix.pch"; sourceTree = "<group>"; };
-		A45B4752178AF212007D5CF0 /* WPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
-		A45B4753178AF212007D5CF0 /* WPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
 		A45B4755178AF212007D5CF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A45B475B178AF212007D5CF0 /* Word Puzzle GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Word Puzzle GridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45B475C178AF212007D5CF0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A45B4764178AF212007D5CF0 /* Word Puzzle GridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Word Puzzle GridTests-Info.plist"; sourceTree = "<group>"; };
 		A45B4766178AF212007D5CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A45B4768178AF212007D5CF0 /* Word_Puzzle_GridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Word_Puzzle_GridTests.m; sourceTree = "<group>"; };
+		A45B4773178AF23B007D5CF0 /* WPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAppDelegate.h; sourceTree = "<group>"; };
+		A45B4774178AF23B007D5CF0 /* WPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAppDelegate.m; sourceTree = "<group>"; };
+		A45B4777178AF28B007D5CF0 /* WPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPRootViewController.h; sourceTree = "<group>"; };
+		A45B4778178AF28B007D5CF0 /* WPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A407A9FE178EC3B60063AA90 /* REDPuzzleGridView */ = {
+			isa = PBXGroup;
+			children = (
+				A407A9FF178EC3B60063AA90 /* REDPuzzleGridTile.h */,
+				A407AA00178EC3B60063AA90 /* REDPuzzleGridTile.m */,
+				A407AA01178EC3B60063AA90 /* REDPuzzleGridView.h */,
+				A407AA02178EC3B60063AA90 /* REDPuzzleGridView.m */,
+				A407AA03178EC3B60063AA90 /* REDTapDownGestureRecognizer.h */,
+				A407AA04178EC3B60063AA90 /* REDTapDownGestureRecognizer.m */,
+			);
+			path = REDPuzzleGridView;
+			sourceTree = "<group>";
+		};
 		A45B4737178AF212007D5CF0 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +132,8 @@
 		A45B4749178AF212007D5CF0 /* Word Puzzle Grid */ = {
 			isa = PBXGroup;
 			children = (
-				A45B4752178AF212007D5CF0 /* WPAppDelegate.h */,
-				A45B4753178AF212007D5CF0 /* WPAppDelegate.m */,
+				A45B4772178AF23B007D5CF0 /* Classes */,
+				A407A9FE178EC3B60063AA90 /* REDPuzzleGridView */,
 				A45B4755178AF212007D5CF0 /* Images.xcassets */,
 				A45B474A178AF212007D5CF0 /* Supporting Files */,
 			);
@@ -142,6 +167,25 @@
 				A45B4765178AF212007D5CF0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A45B4772178AF23B007D5CF0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A45B4773178AF23B007D5CF0 /* WPAppDelegate.h */,
+				A45B4774178AF23B007D5CF0 /* WPAppDelegate.m */,
+				A45B4776178AF25A007D5CF0 /* View Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A45B4776178AF25A007D5CF0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A45B4777178AF28B007D5CF0 /* WPRootViewController.h */,
+				A45B4778178AF28B007D5CF0 /* WPRootViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +285,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A45B4750178AF212007D5CF0 /* main.m in Sources */,
-				A45B4754178AF212007D5CF0 /* WPAppDelegate.m in Sources */,
+				A407AA07178EC3B60063AA90 /* REDTapDownGestureRecognizer.m in Sources */,
+				A45B4775178AF23B007D5CF0 /* WPAppDelegate.m in Sources */,
+				A45B4779178AF28B007D5CF0 /* WPRootViewController.m in Sources */,
+				A407AA05178EC3B60063AA90 /* REDPuzzleGridTile.m in Sources */,
+				A407AA06178EC3B60063AA90 /* REDPuzzleGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Word Puzzle Grid/Word Puzzle Grid-Prefix.pch";
 				INFOPLIST_FILE = "Word Puzzle Grid/Word Puzzle Grid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Word Puzzle Grid/Word Puzzle Grid-Prefix.pch";
 				INFOPLIST_FILE = "Word Puzzle Grid/Word Puzzle Grid-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -436,6 +486,7 @@
 				A45B476E178AF212007D5CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A45B476F178AF212007D5CF0 /* Build configuration list for PBXNativeTarget "Word Puzzle GridTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +495,7 @@
 				A45B4771178AF212007D5CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
