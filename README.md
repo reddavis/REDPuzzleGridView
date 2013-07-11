@@ -7,7 +7,7 @@ A word puzzle control, similar to Ruzzle's letter board
 Screen Show
 ===========
 
-![screenshot](http://f.cl.ly/items/1r2p3y3M0y3k270w1S3s/Image%202013.07.11%2011%3A56%3A30.png)
+![screenshot](http://f.cl.ly/items/0Y0O291T1z2I2T2F2V2n/Image%202013.07.11%2012%3A09%3A35.png)
 
 
 Adding to Your Project
